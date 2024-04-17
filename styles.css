@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif, white;
+    background-image: url('image.png');
+    font-style: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    margin-top: 5px;
+}
+
+#studentsList {
+    margin-top: 10px;
+}
+
+#groupsOutput {
+    margin-top: 20px;
+}
