@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Generador de grupos</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div>
-    <span style="color: white">
-    <h1>Generador de grupos</h1>
-    <label for="studentInput">Ingrese estudiante:</label>
-    <input type="text" id="studentInput">
-    <button onclick="addStudent()">Agregar Estudiante</button>
-    <button onclick="generateGroups()">Generar grupos</button>
-    <ul id="studentsList"></ul>
-    <ul id="groupsOutput"></ul>
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
-    </span>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generador de grupos</h1>
+      <label for="studentInput">Ingrese estudiante:</label>
+      <input type="text" id="studentInput" />
+      <button id="addButton">Agregar Estudiante</button>
+      <button onclick="generateGroups()">Generar grupos</button>
+      <!-- Sección para mostrar los alumnos ingresados -->
+      <div id="studentsListContainer">
+        <ul id="studentsList"></ul>
+      </div>
+      <!-- Sección para mostrar los grupos generados -->
+      <div>
+        <div id="groupsOutput"></div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

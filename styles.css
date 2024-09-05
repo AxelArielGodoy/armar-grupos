@@ -1,22 +1,43 @@
 body {
-    font-family: Arial, sans-serif, white;
-    background-image: url('image.png');
-    font-style: white;
+  background-color: #333;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif, white;
+  background-image: url("image.png");
+  font-style: white;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+.container {
+  text-align: center;
+  background-color: rgba(68, 68, 68, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+input[type="text"] {
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: none;
+}
 button {
-    margin-top: 5px;
+  padding: 5px 10px;
+  margin: 10px 5px;
+  border: none;
+  background-color: #555;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
 }
-
-#studentsList {
-    margin-top: 10px;
+button:hover {
+  background-color: #666;
 }
-
-#groupsOutput {
-    margin-top: 20px;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
